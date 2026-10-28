@@ -1,0 +1,8 @@
+Almaz,1000
+Abebe,500
+Almaz,300
+Selam,1500
+Abebe,200
+Selam,100
+Meron,800
+Almaz,400

@@ -1,0 +1,100 @@
+:root {
+  --gold-accent: #d97706;
+  --card-bg: #ffffff;
+  --border-color: #e2e8f0;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --stripe-bg: #f8fafc;
+  --card-shadow: rgba(15, 23, 42, 0.08);
+  --card-shadow-hover: rgba(217, 119, 6, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--stripe-bg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu-card {
+  background-color: var(--card-bg);
+  padding: 24px;
+  border: 1px solid var(--border-color);
+  border-top: 5px solid var(--gold-accent);
+  border-radius: 12px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px var(--card-shadow-hover);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.item-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold-accent);
+}
+
+.price::before {
+  content: "ETB ";
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.item-description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.ingredients {
+  list-style: none;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ingredients li {
+  padding: 10px 14px;
+  font-size: 0.875rem;
+  color: var(--text-main);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.ingredients li:last-child {
+  border-bottom: none;
+}
+
+.ingredients li:nth-child(even) {
+  background-color: var(--stripe-bg);
+}

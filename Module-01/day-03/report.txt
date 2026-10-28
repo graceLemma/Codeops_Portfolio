@@ -1,0 +1,5 @@
+Customer Totals
+Almaz: 1700
+Selam: 1600
+Meron: 800
+Abebe: 700

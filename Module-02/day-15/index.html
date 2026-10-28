@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habesha_Eatery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+<div class="nav_container">
+    <a href="" class="logo">Habesha_Eatery<span></span></a>
+    <nav class="nav_links">
+        <ul>
+            <li><a href="#reservation">About Us</a></li>
+            <li><a href="#location">Location</a></li>
+             <li><a href="#reservation">Reservation</a></li>
+              <li><a href="#contact">Contact</a></li>
+        </ul>
+</div>
+    </header>
+   <section id="hero" class="hero">
+      <div class="hero_overlay"></div>
+      <div class="hero_content">
+        <h1 class="hero_title">Experience Authentic Ethiopian Flavors</h1>
+        <p class="hero_subtitle">Freshly prepared injera, traditional wotts, and legendary coffee brewed to perfection in the heart of Addis Ababa.</p>
+        <div class="hero_actions">
+          <a href="#reservation" class="btn btn_primary">Book a Table</a>
+          <a href="#menu" class="btn btn_secondary">View Menu</a>
+        </div>
+      </div>
+    </section>
+    <main>
+        <section id="hero" class="about_section">
+            <div class=" container about_container">
+                <div class="about_text">
+                    <span class="section_tag">About Us</span>
+            <h1>Welcome to Habesha_Eatery</h1>
+            <p>Experience the authentic taste of Ethiopia in every bite. Our restaurant offers a warm and inviting atmosphere where you can enjoy traditional dishes made with the freshest ingredients.</p>
+                </div>
+                <div class="about_image">
+                    <img src="food.jpg" alt="Food Image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    
+
+   
+    
+
+   <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Selection</span>
+          <h2>Featured Delicacies</h2>
+        </div>
+
+        <div class="menu-grid">
+        
+          <article class="menu-card">
+            <div class="card-img-wrapper">
+              <img src="beyeaynetu.jpg" alt="Special Beyaynetu">
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3>Special Beyaynetu</h3>
+                <span class="price">450 ETB</span>
+              </div>
+              <p>A colorful combination of misir, kik, gomen, shiro, and fresh salad served over sourdough injera.</p>
+            </div>
+          </article>
+
+        
+          <article class="menu-card">
+            <div class="card-img-wrapper">
+              <img src="doro.jpg" alt="Sizzling Doro Wat">
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3>Doro Wat</h3>
+                <span class="price">650 ETB</span>
+              </div>
+              <p>Slow-cooked chicken stew infused with berbere spice, spiced butter (niter kibbeh), and hard-boiled egg.</p>
+            </div>
+          </article>
+
+          
+          <article class="menu-card">
+            <div class="card-img-wrapper">
+              <img src="chikina.jpg" alt="chikina Special Tibs">
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3>Chikina Special Tibs</h3>
+                <span class="price">750 ETB</span>
+              </div>
+              <p>Tender tenderloin beef sauteed with rosemary, onions, garlic, and jalapeño peppers, served sizzling hot.</p>
+            </div>
+          </article>
+
+        
+          <article class="menu-card">
+            <div class="card-img-wrapper">
+              <img src="buna.jpg" alt="Ethiopian Coffee Ceremony">
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3>Jebena Buna Ceremony</h3>
+                <span class="price">150 ETB</span>
+              </div>
+              <p>Traditional coffee roasted in-house, brewed in a clay jebena pot, served with frankincense and popcorn.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservation" class="reservation-section">
+      <div class="container">
+        <div class="reservation-wrapper">
+          <div class="section-header">
+            <span class="section-tag">Book a Table</span>
+            <h2>Reserve Your Experience</h2>
+            <p>Join us for lunch, dinner, or traditional coffee. Please fill out the form below.</p>
+          </div>
+
+          <form class="reservation-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Grace Lemma" required minlength="2">
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+251 91 234 5678" pattern="^\+?[0-9\s\-]{9,15}$" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-date">Date *</label>
+                <input type="date" id="res-date" name="res-date" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-time">Time *</label>
+                <input type="time" id="res-time" name="res-time" required>
+              </div>
+
+              <div class="form-group">
+                <label for="guests">Number of Guests *</label>
+                <select id="guests" name="guests" required>
+                  <option value="" disabled selected>Select guests</option>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="4">4 People</option>
+                  <option value="6">6+ People (Group)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="seating">Seating Preference</label>
+                <select id="seating" name="seating">
+                  <option value="indoor">Indoor Main Hall</option>
+                  <option value="traditional">Traditional Floor Seating</option>
+                  <option value="terrace">Patio Terrace</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="notes">Special Requests</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Dietary requirements, birthdays, or special arrangements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">Confirm Reservation</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer id="footer" class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="#hero" class="logo footer-logo"> Habesha <span>.</span></a>
+        <p>Celebrating the warmth, flavor, and heritage of Ethiopian cuisine right in Addis Ababa.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Location</h4>
+        <p>Bole Sub-City, Woreda 03</p>
+        <p>Near Cameroon Street, Behind Edna Mall</p>
+        <p>Addis Ababa, Ethiopia</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Opening Hours</h4>
+        <p><strong>Mon - Fri:</strong> 8:00 AM  10:00 PM</p>
+        <p><strong>Sat - Sun:</strong> 9:00AM -11:00 PM</p>
+        <p><em>Coffee Ceremony: Daily at 4:00 PM</em></p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <p><strong>Phone:</strong> +251 11 612 3456</p>
+        <p><strong>TeleBirr / Direct:</strong> +251 91 100 2233</p>
+        <p><strong>Email:</strong> info@habeshaeatery.et</p>
+      </div>
+    </div>
+ <section id="location" class="location">
+        <h1> Map </h1>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63052.28619871564!2d38.72634445!3d8.9934936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1785522876572!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    </section>
+    <div class="footer_bottom">
+      <div class="container">
+        <p>&copy; 2026 Habesha Eatery. All rights reserved. Crafted with care in Addis Ababa.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

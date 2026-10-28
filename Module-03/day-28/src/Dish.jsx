@@ -1,0 +1,25 @@
+import PropTypes from "prop-types";
+
+export function Dish({ name, price, currency = "ETB", spicy = false, onAdd }) {
+  return (
+    <div className="dish">
+      <h3>
+        {name} {spicy && <span className="badge spicy">• Spicy</span>}
+      </h3>
+      <p>
+        {price} {currency}
+      </p>
+      <button type="button" onClick={onAdd}>
+        Add to Order
+      </button>
+    </div>
+  );
+}
+
+Dish.propTypes = {
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  currency: PropTypes.string,
+  spicy: PropTypes.bool,
+  onAdd: PropTypes.func.isRequired,
+};

@@ -1,0 +1,150 @@
+:root {
+  --primary: #111827;
+  --secondary: #e8f1ff;
+
+  --background: #f8fafc;
+  --surface: #ffffff;
+
+  --text: #374151;
+  --muted: #6b7280;
+
+  --border: #e5e7eb;
+
+  --radius: 8px;
+}
+
+.converter {
+  width: 420px;
+  padding: 32px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin: 60px auto;
+  width: 80%;
+  padding: 32px;
+  margin: 60px;
+
+}
+
+li{
+  background-attachment: fixed;
+  font-style: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  
+}
+
+.rm{
+  background-color: var(--secondary);
+  border-radius: 30%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.converter input,
+.converter select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-sizing: border-box;
+  
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.btn {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+
+}
+
+.btn-secondary {
+  background: var(--secondary);
+  color: var(--text);
+}
+
+button {
+    background-color: var (var(--primary));
+}
+
+.btn{
+    padding: 12px 24px;
+    border-radius: var(--radius);
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: white;
+}
+.btn-secondary{
+    background: #e8f0ff;
+    color: var(--primary);
+}
+.btn-outline{
+    background: transparent;
+    color:var(--primary)
+    var(--border)
+   
+}
+.btn-inverted{
+    background: white;
+    color: var(--primary);
+  
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-primary);
+    background-color: var(--muted);
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-style: oblique;
+
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    background-color: var(--secondary);
+}
+
+label{
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+
+.frm{
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+
+.watchlist-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary);
+  padding: 10px 0;
+}

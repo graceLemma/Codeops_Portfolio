@@ -1,0 +1,1101 @@
+[
+  {
+    "id": 1, "routeNumber": 1,"name": "Bus 1","from": "Megenagna","via": "Gurd Shola","to": "Kara","distanceKm": 7.7,"type": "Anbessa City Bus"
+  },
+  {
+    "id": 2,"routeNumber": 2,"name": "Bus 2","from": "Kore Mekanisa","via": "Lideta","to": "Addis Ketema","distanceKm": 11.1,"type": "Anbessa City Bus"
+  },
+  {"id": 3,"routeNumber": 3,"name": "Bus 3","from": "Ayertena","via": "Mexico","to": "Minilik Square","distanceKm": 10.8, "type": "Anbessa City Bus"
+  },
+  {"id": 4,"routeNumber": 4,"name": "Bus 4","from": "Kaliti","via": "Kira","to": "Merkato","distanceKm": 19.4,"type": "Anbessa City Bus"
+  },
+  {"id": 5,"routeNumber": 5,"name": "Bus 5","from": "Kore Mekanisa","via": "SARBET","to": "Minilik Square","distanceKm": 12.7,"type": "Anbessa City Bus"
+  },
+  {"id": 6,"routeNumber": 6,"name": "Bus 6",
+    "from": "Kera",
+    "via": "MEXICO",
+    "to": "Addisu Gebeya",
+    "distanceKm": 9.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 7,
+    "routeNumber": 7,
+    "name": "Bus 7",
+    "from": "Megenagna",
+    "via": "Kotebe",
+    "to": "Aleltu",
+    "distanceKm": 49.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 8,
+    "routeNumber": 8,
+    "name": "Bus 8",
+    "from": "Kechene",
+    "via": "PIYYASA",
+    "to": "Merkato",
+    "distanceKm": 9.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 9,
+    "routeNumber": 9,
+    "name": "Bus 9",
+    "from": "Birass Cilinic Bole School",
+    "via": "Kasanchiz",
+    "to": "Piazza",
+    "distanceKm": 10.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 10,
+    "routeNumber": 10,
+    "name": "Bus 10",
+    "from": "Kotebe Teachers Collage",
+    "via": "Kebena",
+    "to": "Piazza",
+    "distanceKm": 12.7,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 11,
+    "routeNumber": 11,
+    "name": "Bus 11",
+    "from": "Kolfe",
+    "via": "Atkilt Tera",
+    "to": "Minilik Hospital",
+    "distanceKm": 10.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 12,
+    "routeNumber": 12,
+    "name": "Bus 12",
+    "from": "Gurara",
+    "via": "FRENCAY/KILA",
+    "to": "Merkato",
+    "distanceKm": 9.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 13,
+    "routeNumber": 13,
+    "name": "Bus 13",
+    "from": "Italy Embassy",
+    "via": "Sinima Ethiopia",
+    "to": "Merkato",
+    "distanceKm": 9.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 14,
+    "routeNumber": 14,
+    "name": "Bus 14",
+    "from": "PIYYSA",
+    "via": "STADIUM",
+    "to": "BULBULA",
+    "distanceKm": 12.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 15,
+    "routeNumber": 15,
+    "name": "Bus 15",
+    "from": "Megenagna",
+    "via": "Abuare",
+    "to": "Merkato",
+    "distanceKm": 10.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 16,
+    "routeNumber": 16,
+    "name": "Bus 16",
+    "from": "Kidanemihret",
+    "via": "Afnch Ber",
+    "to": "Merkato",
+    "distanceKm": 7.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 17,
+    "routeNumber": 17,
+    "name": "Bus 17",
+    "from": "Kusquam",
+    "via": "Kidste Mariam",
+    "to": "Merkato",
+    "distanceKm": 9.1,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 18,
+    "routeNumber": 18,
+    "name": "Bus 18",
+    "from": "Keraniyo",
+    "via": "Kolfe Dildy",
+    "to": "Merkato",
+    "distanceKm": 7.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 19,
+    "routeNumber": 19,
+    "name": "Bus 19",
+    "from": "Asko",
+    "via": "Pawlos",
+    "to": "Piazza",
+    "distanceKm": 12.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 20,
+    "routeNumber": 20,
+    "name": "Bus 20",
+    "from": "Dile Ber",
+    "via": "RUFAEL",
+    "to": "Merkato",
+    "distanceKm": 8.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 21,
+    "routeNumber": 21,
+    "name": "Bus 21",
+    "from": "Flidoro",
+    "via": "Kolfe Dildy",
+    "to": "Merkato",
+    "distanceKm": 8.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 22,
+    "routeNumber": 22,
+    "name": "Bus 22",
+    "from": "Summit Condominium",
+    "via": "22 Mazoria",
+    "to": "Legehar",
+    "distanceKm": 12.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 23,
+    "routeNumber": 23,
+    "name": "Bus 23",
+    "from": "Lamberet",
+    "via": "Afnch Ber",
+    "to": "Merkato",
+    "distanceKm": 12.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 24,
+    "routeNumber": 24,
+    "name": "Bus 24",
+    "from": "Dire Sololia",
+    "via": "ASCO",
+    "to": "Merkato",
+    "distanceKm": 15.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 25,
+    "routeNumber": 25,
+    "name": "Bus 25",
+    "from": "Legehar",
+    "via": "Gotera",
+    "to": "Akaki",
+    "distanceKm": 19.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 26,
+    "routeNumber": 26,
+    "name": "Bus 26",
+    "from": "Merkato",
+    "via": "Coca Cola",
+    "to": "Sebeta",
+    "distanceKm": 25.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 27,
+    "routeNumber": 27,
+    "name": "Bus 27",
+    "from": "MEXICO",
+    "via": "SARBET",
+    "to": "GELAN CONDI.",
+    "distanceKm": 14.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 28,
+    "routeNumber": 28,
+    "name": "Bus 28",
+    "from": "Asko Sansuzi",
+    "via": "Mesalemia",
+    "to": "Merkato",
+    "distanceKm": 11.1,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 29,
+    "routeNumber": 29,
+    "name": "Bus 29",
+    "from": "Addisu Sefer",
+    "via": "Teklehaimanot",
+    "to": "Merkato",
+    "distanceKm": 12.7,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 30,
+    "routeNumber": 30,
+    "name": "Bus 30",
+    "from": "MIZAN AMAN",
+    "via": "Semen Gegeya",
+    "to": "Merkato",
+    "distanceKm": 25.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 31,
+    "routeNumber": 31,
+    "name": "Bus 31",
+    "from": "Legehar",
+    "via": "4 Kilo",
+    "to": "Shiromeda",
+    "distanceKm": 7.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 32,
+    "routeNumber": 32,
+    "name": "Bus 32",
+    "from": "Hana Mariyame Kotebe",
+    "via": "22 Mazoria",
+    "to": "Legehar",
+    "distanceKm": 10.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 33,
+    "routeNumber": 33,
+    "name": "Bus 33",
+    "from": "Kotebe Gebiriel",
+    "via": "Kebena",
+    "to": "4 Kilo",
+    "distanceKm": 11.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 34,
+    "routeNumber": 34,
+    "name": "Bus 34",
+    "from": "Germen Square",
+    "via": "Kera",
+    "to": "Merkato",
+    "distanceKm": 9.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 35,
+    "routeNumber": 35,
+    "name": "Bus 35",
+    "from": "Lebu Musica Bet",
+    "via": "Lafto",
+    "to": "Merkato",
+    "distanceKm": 15.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 36,
+    "routeNumber": 36,
+    "name": "Bus 36",
+    "from": "Kara Kore",
+    "via": "Torhailoch",
+    "to": "Legehar",
+    "distanceKm": 11.7,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 37,
+    "routeNumber": 37,
+    "name": "Bus 37",
+    "from": "Keraniyo",
+    "via": "Mexico",
+    "to": "Minilik Square",
+    "distanceKm": 12.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 38,
+    "routeNumber": 38,
+    "name": "Bus 38",
+    "from": "Lebu Musica Bete",
+    "via": "Minilik Square",
+    "to": "6 Kilo",
+    "distanceKm": 11.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 39,
+    "routeNumber": 39,
+    "name": "Bus 39",
+    "from": "Bole School Medhanialem",
+    "via": "Kazanchiz",
+    "to": "Merkato",
+    "distanceKm": 9.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 40,
+    "routeNumber": 40,
+    "name": "Bus 40",
+    "from": "Kara Alo",
+    "via": "4 Kilo",
+    "to": "Merkato",
+    "distanceKm": 17.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 41,
+    "routeNumber": 41,
+    "name": "Bus 41",
+    "from": "Eyesus Church",
+    "via": "4 Kilo",
+    "to": "Merkato",
+    "distanceKm": 8.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 42,
+    "routeNumber": 42,
+    "name": "Bus 42",
+    "from": "Megenagna",
+    "via": "Bole",
+    "to": "Bole Legehare",
+    "distanceKm": 9.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 43,
+    "routeNumber": 43,
+    "name": "Bus 43",
+    "from": "Megenesha",
+    "via": "ASCO",
+    "to": "Merkato",
+    "distanceKm": 30.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 44,
+    "routeNumber": 44,
+    "name": "Bus 44",
+    "from": "Legedadi",
+    "via": "4 Kilo",
+    "to": "Merkato",
+    "distanceKm": 30.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 45,
+    "routeNumber": 45,
+    "name": "Bus 45",
+    "from": "Legehar",
+    "via": "Piazza",
+    "to": "Dilbere",
+    "distanceKm": 8.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 46,
+    "routeNumber": 46,
+    "name": "Bus 46",
+    "from": "Gergi",
+    "via": "22 Mazoria",
+    "to": "4 Kilo",
+    "distanceKm": 11.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 47,
+    "routeNumber": 47,
+    "name": "Bus 47",
+    "from": "Yenegew Fire School",
+    "via": "Mechael",
+    "to": "Merkato",
+    "distanceKm": 6.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 48,
+    "routeNumber": 48,
+    "name": "Bus 48",
+    "from": "Addisu Gebeya",
+    "via": "PIYYSA",
+    "to": "BOLE",
+    "distanceKm": 10.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 49,
+    "routeNumber": 49,
+    "name": "Bus 49",
+    "from": "Ayat Condominium",
+    "via": "C.M.C",
+    "to": "Megenagna",
+    "distanceKm": 8.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 50,
+    "routeNumber": 50,
+    "name": "Bus 50",
+    "from": "Ayeretena",
+    "via": "Torhailoch",
+    "to": "Megenagna",
+    "distanceKm": 12.1,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 51,
+    "routeNumber": 51,
+    "name": "Bus 51",
+    "from": "Betel Hospital",
+    "via": "Zenbwork",
+    "to": "Merkato",
+    "distanceKm": 10.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 52,
+    "routeNumber": 52,
+    "name": "Bus 52",
+    "from": "Gergi",
+    "via": "Bole",
+    "to": "Merkato",
+    "distanceKm": 14.1,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 53,
+    "routeNumber": 53,
+    "name": "Bus 53",
+    "from": "Bole Michael",
+    "via": "Meskel Square",
+    "to": "Shiromeda",
+    "distanceKm": 11.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 54,
+    "routeNumber": 54,
+    "name": "Bus 54",
+    "from": "Lafeto",
+    "via": "Kera",
+    "to": "Leghar",
+    "distanceKm": 9.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 55,
+    "routeNumber": 55,
+    "name": "Bus 55",
+    "from": "Legehar",
+    "via": "4 Kilo",
+    "to": "Gurara",
+    "distanceKm": 9.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 56,
+    "routeNumber": 56,
+    "name": "Bus 56",
+    "from": "Saris Abo",
+    "via": "Meskel Square",
+    "to": "Shiromeda",
+    "distanceKm": 14.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 57,
+    "routeNumber": 57,
+    "name": "Bus 57",
+    "from": "Kara",
+    "via": "22 Mazoria",
+    "to": "Leghar",
+    "distanceKm": 14.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 58,
+    "routeNumber": 58,
+    "name": "Bus 58",
+    "from": "Alem Bank",
+    "via": "Torhailoch",
+    "to": "Leghar",
+    "distanceKm": 12.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 59,
+    "routeNumber": 59,
+    "name": "Bus 59",
+    "from": "Betel Hospital",
+    "via": "Coca Cola",
+    "to": "Mililik Square",
+    "distanceKm": 11.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 60,
+    "routeNumber": 60,
+    "name": "Bus 60",
+    "from": "Deber Zeit",
+    "via": "Gotera",
+    "to": "Leghar",
+    "distanceKm": 47.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 61,
+    "routeNumber": 61,
+    "name": "Bus 61",
+    "from": "Ayat Condominium",
+    "via": "22 Mazoria",
+    "to": "Leghar Through Kasanchis",
+    "distanceKm": 15.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 62,
+    "routeNumber": 62,
+    "name": "Bus 62",
+    "from": "Sebeta",
+    "via": "Torhailoch",
+    "to": "Leghar",
+    "distanceKm": 23.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 63,
+    "routeNumber": 63,
+    "name": "Bus 63",
+    "from": "Merkato",
+    "via": "Atena Tera",
+    "to": "Mikililand/Birechko Fabrica",
+    "distanceKm": 9.1,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 64,
+    "routeNumber": 64,
+    "name": "Bus 64",
+    "from": "6 Kilo",
+    "via": "Kazanchiz",
+    "to": "Megenagna Gorfe Aswegaj",
+    "distanceKm": 9.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 65,
+    "routeNumber": 65,
+    "name": "Bus 65",
+    "from": "Merkato",
+    "via": "Coca Cola",
+    "to": "Alem Bank",
+    "distanceKm": 11.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 66,
+    "routeNumber": 66,
+    "name": "Bus 66",
+    "from": "Merkato",
+    "via": "Coca Cola",
+    "to": "Karakore",
+    "distanceKm": 10.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 67,
+    "routeNumber": 67,
+    "name": "Bus 67",
+    "from": "Mekanisa Jemo",
+    "via": "Mexico",
+    "to": "Legehar",
+    "distanceKm": 10.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 68,
+    "routeNumber": 68,
+    "name": "Bus 68",
+    "from": "Torhailoche",
+    "via": "Gibi Gebriel",
+    "to": "Minlik Hospital",
+    "distanceKm": 10.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 69,
+    "routeNumber": 69,
+    "name": "Bus 69",
+    "from": "Philpos Church",
+    "via": "Mesalemia",
+    "to": "Merkato",
+    "distanceKm": 5.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 70,
+    "routeNumber": 70,
+    "name": "Bus 70",
+    "from": "AJANBO CONDI.",
+    "via": "Mexico",
+    "to": "PIYASA",
+    "distanceKm": 11.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 71,
+    "routeNumber": 71,
+    "name": "Bus 71",
+    "from": "Gerji",
+    "via": "Bole Tenatabia",
+    "to": "Balcha Hospital",
+    "distanceKm": 11.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 72,
+    "routeNumber": 72,
+    "name": "Bus 72",
+    "from": "Hanamariam",
+    "via": "58 Kebele",
+    "to": "Saris Abo",
+    "distanceKm": 3.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 73,
+    "routeNumber": 73,
+    "name": "Bus 73",
+    "from": "Legehar",
+    "via": "Torhailoch",
+    "to": "Wingate School",
+    "distanceKm": 10.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 74,
+    "routeNumber": 74,
+    "name": "Bus 74",
+    "from": "C.M.C Michael",
+    "via": "Tikur Anbessa",
+    "to": "Merkato",
+    "distanceKm": 13.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 75,
+    "routeNumber": 75,
+    "name": "Bus 75",
+    "from": "6 Kilo",
+    "via": "Kazanchiz",
+    "to": "Kera",
+    "distanceKm": 10.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 76,
+    "routeNumber": 76,
+    "name": "Bus 76",
+    "from": "Megenagna",
+    "via": "Zerihun Building",
+    "to": "Kaliti",
+    "distanceKm": 18.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 77,
+    "routeNumber": 77,
+    "name": "Bus 77",
+    "from": "Ayertena",
+    "via": "Sar Bet",
+    "to": "Kera",
+    "distanceKm": 13.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 78,
+    "routeNumber": 78,
+    "name": "Bus 78",
+    "from": "Megenagna",
+    "via": "Bherawi",
+    "to": "Gofa Condo",
+    "distanceKm": 12.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 79,
+    "routeNumber": 79,
+    "name": "Bus 79",
+    "from": "4 Kilo",
+    "via": "Signal",
+    "to": "Summit",
+    "distanceKm": 12.7,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 80,
+    "routeNumber": 80,
+    "name": "Bus 80",
+    "from": "Semen Gebeya",
+    "via": "Kazanchiz",
+    "to": "Megenagna",
+    "distanceKm": 12.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 81,
+    "routeNumber": 81,
+    "name": "Bus 81",
+    "from": "SANSUSI",
+    "via": "PIYYSA",
+    "to": "MEGENAGNA",
+    "distanceKm": 13.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 82,
+    "routeNumber": 82,
+    "name": "Bus 82",
+    "from": "Sefera Goro",
+    "via": "24 Kebele",
+    "to": "Balcha Hospital",
+    "distanceKm": 14.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 83,
+    "routeNumber": 83,
+    "name": "Bus 83",
+    "from": "Ayat Condominium",
+    "via": "Kebena",
+    "to": "6 Kilo",
+    "distanceKm": 18.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 84,
+    "routeNumber": 84,
+    "name": "Bus 84",
+    "from": "Kolfe",
+    "via": "Amanuel",
+    "to": "Legehar",
+    "distanceKm": 9.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 85,
+    "routeNumber": 85,
+    "name": "Bus 85",
+    "from": "Merkato",
+    "via": "18 Mazoria",
+    "to": "Holeta",
+    "distanceKm": 45.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 86,
+    "routeNumber": 86,
+    "name": "Bus 86",
+    "from": "Ayertena",
+    "via": "Mebrat Hail",
+    "to": "Korki Fabrica",
+    "distanceKm": 12.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 87,
+    "routeNumber": 87,
+    "name": "Bus 87",
+    "from": "Wingate College",
+    "via": "Ketena 2",
+    "to": "Ayertena",
+    "distanceKm": 10.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 88,
+    "routeNumber": 88,
+    "name": "Bus 88",
+    "from": "Addis Ketema",
+    "via": "Piazza",
+    "to": "Chancho",
+    "distanceKm": 40.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 89,
+    "routeNumber": 89,
+    "name": "Bus 89",
+    "from": "Addis Ketema",
+    "via": "4 Kilo",
+    "to": "Sendafa",
+    "distanceKm": 44.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 90,
+    "routeNumber": 90,
+    "name": "Bus 90",
+    "from": "Betel Hospital",
+    "via": "Torhailoch",
+    "to": "Legehar",
+    "distanceKm": 10.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 91,
+    "routeNumber": 91,
+    "name": "Bus 91",
+    "from": "Merkato",
+    "via": "Torhailoch",
+    "to": "Teji",
+    "distanceKm": 52.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 92,
+    "routeNumber": 92,
+    "name": "Bus 92",
+    "from": "Hanamariam",
+    "via": "Sar Bet",
+    "to": "Balcha Hospital",
+    "distanceKm": 9.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 93,
+    "routeNumber": 93,
+    "name": "Bus 93",
+    "from": "Bole Bulbula",
+    "via": "Bole Airport",
+    "to": "Megenagna",
+    "distanceKm": 15.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 94,
+    "routeNumber": 94,
+    "name": "Bus 94",
+    "from": "Piazza",
+    "via": "Pawlos",
+    "to": "Mekililand Birchko Fabrica",
+    "distanceKm": 9.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 95,
+    "routeNumber": 95,
+    "name": "Bus 95",
+    "from": "Merkato",
+    "via": "Fil Doro",
+    "to": "Addisalem",
+    "distanceKm": 47.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 96,
+    "routeNumber": 96,
+    "name": "Bus 96",
+    "from": "Megenagna",
+    "via": "Anbessa Gerag",
+    "to": "Goro Sefera",
+    "distanceKm": 7.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 97,
+    "routeNumber": 97,
+    "name": "Bus 97",
+    "from": "Megenagna",
+    "via": "Ayat",
+    "to": "Legetafo",
+    "distanceKm": 15.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 98,
+    "routeNumber": 98,
+    "name": "Bus 98",
+    "from": "Dukem",
+    "via": "Gelan",
+    "to": "Saris Abo",
+    "distanceKm": 26.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 99,
+    "routeNumber": 99,
+    "name": "Bus 99",
+    "from": "Ayertena",
+    "via": "Welete",
+    "to": "Alemgena",
+    "distanceKm": 8.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 100,
+    "routeNumber": 100,
+    "name": "Bus 100",
+    "from": "Jemo Site",
+    "via": "Dese Hotel",
+    "to": "Merkato",
+    "distanceKm": 14.5,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 101,
+    "routeNumber": 101,
+    "name": "Bus 101",
+    "from": "Megenagna",
+    "via": "Ayat",
+    "to": "Yeka Ayat Con.1 Sq",
+    "distanceKm": 12.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 102,
+    "routeNumber": 102,
+    "name": "Bus 102",
+    "from": "Legehar",
+    "via": "Megenagna",
+    "to": "Karalo",
+    "distanceKm": 13.7,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 103,
+    "routeNumber": 103,
+    "name": "Bus 103",
+    "from": "Jemo 3",
+    "via": "Mexico",
+    "to": "Piazza",
+    "distanceKm": 12.2,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 104,
+    "routeNumber": 104,
+    "name": "Bus 104",
+    "from": "Addisu Gebeya",
+    "via": "Mexico",
+    "to": "SARIS",
+    "distanceKm": 12.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 105,
+    "routeNumber": 105,
+    "name": "Bus 105",
+    "from": "Legehar",
+    "via": "Torhailoche",
+    "to": "Anfo Meda",
+    "distanceKm": 12.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 106,
+    "routeNumber": 106,
+    "name": "Bus 106",
+    "from": "MEXICO",
+    "via": "SARBET",
+    "to": "KOYEFECHE",
+    "distanceKm": 10.8,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 107,
+    "routeNumber": 107,
+    "name": "Bus 107",
+    "from": "TULUDIMTU",
+    "via": "MEXICO",
+    "to": "PIYASA",
+    "distanceKm": 11.4,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 108,
+    "routeNumber": 108,
+    "name": "Bus 108",
+    "from": "Minilik Square",
+    "via": "Winget",
+    "to": "Asco Addisu Sefer",
+    "distanceKm": 9.3,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 109,
+    "routeNumber": 109,
+    "name": "Bus 109",
+    "from": "Saris Abo",
+    "via": "Kaliti",
+    "to": "Tulu Dimtu",
+    "distanceKm": 12.0,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 110,
+    "routeNumber": 110,
+    "name": "Bus 110",
+    "from": "Akaki",
+    "via": "Meskel Square",
+    "to": "6 Kilo",
+    "distanceKm": 24.9,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 111,
+    "routeNumber": 111,
+    "name": "Bus 111",
+    "from": "Piazza",
+    "via": "Medhanialm School",
+    "to": "Dire Sololiya",
+    "distanceKm": 16.6,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 112,
+    "routeNumber": 112,
+    "name": "Bus 112",
+    "from": "Addisu Gebeyea",
+    "via": null,
+    "to": "Megenagna",
+    "distanceKm": null,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 115,
+    "routeNumber": 115,
+    "name": "Bus 115",
+    "from": "MEXICO",
+    "via": null,
+    "to": "SEFERA",
+    "distanceKm": null,
+    "type": "Anbessa City Bus"
+  },
+  {
+    "id": 117,
+    "routeNumber": 117,
+    "name": "Bus 117",
+    "from": "MEXICO",
+    "via": null,
+    "to": "HAILEGARMENT",
+    "distanceKm": 10,
+    "type": "Anbessa City Bus"
+  }
+]
