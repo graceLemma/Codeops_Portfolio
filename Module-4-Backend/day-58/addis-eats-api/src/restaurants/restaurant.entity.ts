@@ -1,4 +1,4 @@
-export const AREAS = ['Bole', 'Kazanchis', 'Piassa', 'Megenagna'] as const;
+export const AREAS = ['Bole', 'Kazanchis', 'Piassa', 'CMC'] as const;
 export type Area = typeof AREAS[number];
 
 export interface Restaurant {

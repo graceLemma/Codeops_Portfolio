@@ -1,7 +1,7 @@
 import { Module } from "@nestjs/common";
-import { OrdersController } from "./orders.controller";
-import { OrdersService } from "./orders.service";
-import { InMemoryOrderRepository } from "./repositories/in-memory-order.repository"; // Or your provided repo path
+import { OrdersController } from "./orders.controller.js";
+import { OrdersService } from "./order.service.js";
+import { InMemoryOrderRepository } from "./order.repository.js";
 
 @Module({
   controllers: [OrdersController],

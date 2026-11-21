@@ -1,11 +1,11 @@
 import { IsString, IsInt, Min, IsIn, Matches, IsOptional } from "class-validator";
-import { Area } from "../types/order.types"; // Adjust path as needed based on your structure
+import type { Area } from "../order.types.js";
 
 export class CreateOrderDto {
   @IsString()
   customer!: string;
 
-  @IsIn(["Bole", "Kazanchis", "Piassa", "Megenagna"])
+  @IsIn(["Bole", "Kazanchis", "Piassa", "CMC"])
   area!: Area;
 
   @IsInt()

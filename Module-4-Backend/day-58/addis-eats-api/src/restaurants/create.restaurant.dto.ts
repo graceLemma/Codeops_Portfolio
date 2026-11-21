@@ -1,5 +1,6 @@
 import { IsString, Length, IsIn, IsBoolean, IsOptional } from 'class-validator';
-import { AREAS, Area } from './restaurant.entity.js';
+import { AREAS } from './restaurant.entity.js';
+import type { Area } from './restaurant.entity.js';
 
 export class CreateRestaurantDto {
   @IsString()

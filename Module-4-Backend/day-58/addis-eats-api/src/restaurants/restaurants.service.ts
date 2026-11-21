@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { Restaurant, Area } from './restaurant.entity.js';
-import { CreateRestaurantDto } from './create.restaurant.dto.js';
+import type { CreateRestaurantDto } from './create.restaurant.dto.js';
 
 @Injectable()
 export class RestaurantsService {
