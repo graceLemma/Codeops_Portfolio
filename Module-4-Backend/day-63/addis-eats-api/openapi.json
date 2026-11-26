@@ -1,0 +1,469 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/api": {
+      "get": {
+        "operationId": "AppController_getHello",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "API is responding."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Get the API health greeting",
+        "tags": [
+          "health"
+        ]
+      }
+    },
+    "/api/metrics": {
+      "get": {
+        "operationId": "MetricsController_getMetrics",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Current request counts."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Get request counts by endpoint",
+        "tags": [
+          "metrics"
+        ]
+      }
+    },
+    "/api/orders": {
+      "get": {
+        "operationId": "OrdersController_findAll",
+        "parameters": [
+          {
+            "name": "area",
+            "required": false,
+            "in": "query",
+            "description": "Filter by area",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Orders matching the filter."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "List delivery orders",
+        "tags": [
+          "orders"
+        ]
+      },
+      "post": {
+        "operationId": "OrdersController_create",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "The order was created."
+          },
+          "400": {
+            "description": "Order input failed validation."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Create a delivery order",
+        "tags": [
+          "orders"
+        ]
+      }
+    },
+    "/api/orders/delayed": {
+      "get": {
+        "operationId": "OrdersController_delayedResponse",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The delayed response completed."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Demonstrate the five-second timeout",
+        "tags": [
+          "orders"
+        ]
+      }
+    },
+    "/api/orders/{id}": {
+      "get": {
+        "operationId": "OrdersController_findOne",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Order ID",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested order."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "404": {
+            "description": "Order does not exist."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Get an order owned by the caller",
+        "tags": [
+          "orders"
+        ]
+      }
+    },
+    "/api/restaurants": {
+      "get": {
+        "operationId": "RestaurantsController_findAll",
+        "parameters": [
+          {
+            "name": "area",
+            "required": false,
+            "in": "query",
+            "description": "Filter by area",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Restaurants matching the filter."
+          },
+          "400": {
+            "description": "The area is not supported."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "List restaurants in Addis Ababa",
+        "tags": [
+          "restaurants"
+        ]
+      },
+      "post": {
+        "operationId": "RestaurantsController_create",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRestaurantDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "The restaurant was created."
+          },
+          "400": {
+            "description": "Restaurant input failed validation."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Create a restaurant (admin only)",
+        "tags": [
+          "restaurants"
+        ]
+      }
+    },
+    "/api/restaurants/{id}": {
+      "get": {
+        "operationId": "RestaurantsController_findOne",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Restaurant ID",
+            "schema": {
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The requested restaurant."
+          },
+          "400": {
+            "description": "The ID must be an integer."
+          },
+          "401": {
+            "description": "API key is missing."
+          },
+          "403": {
+            "description": "API key is invalid, the caller lacks the required role, or the order is not owned by the caller."
+          },
+          "404": {
+            "description": "Restaurant does not exist."
+          },
+          "408": {
+            "description": "The request exceeded the five-second timeout."
+          },
+          "429": {
+            "description": "The rate limit was exceeded; includes Retry-After and requestId."
+          },
+          "500": {
+            "description": "The API_KEY setting is missing or the server failed."
+          }
+        },
+        "security": [
+          {
+            "api-key": []
+          }
+        ],
+        "summary": "Get a restaurant by ID",
+        "tags": [
+          "restaurants"
+        ]
+      }
+    }
+  },
+  "info": {
+    "title": "Addis Eats API",
+    "description": "API for browsing Addis Eats restaurants and managing delivery orders. Requests require the configured x-api-key header; request processing is limited to five seconds.",
+    "version": "1.0.0",
+    "contact": {}
+  },
+  "tags": [],
+  "servers": [],
+  "components": {
+    "securitySchemes": {
+      "api-key": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "x-api-key"
+      }
+    },
+    "schemas": {
+      "CreateOrderDto": {
+        "type": "object",
+        "properties": {
+          "customer": {
+            "type": "string"
+          },
+          "area": {
+            "type": "string",
+            "enum": [
+              "Bole",
+              "Kazanchis",
+              "Piassa",
+              "CMC"
+            ]
+          },
+          "totalSantim": {
+            "type": "number",
+            "minimum": 1
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^(?:\\+251|0)9\\d{8}$"
+          }
+        },
+        "required": [
+          "customer",
+          "area",
+          "totalSantim"
+        ]
+      },
+      "CreateRestaurantDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 80
+          },
+          "area": {
+            "type": "string",
+            "enum": [
+              "Bole",
+              "Kazanchis",
+              "Piassa",
+              "CMC"
+            ]
+          },
+          "isOpen": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "name",
+          "area"
+        ]
+      }
+    }
+  }
+}

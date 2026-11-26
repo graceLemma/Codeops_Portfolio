@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Day 63 CORS probe</title>
+  </head>
+  <body>
+    <main>
+      <h1>CORS preflight and credentials probe</h1>
+      <p>
+        Serve this page from a different local origin. Add that exact origin to
+        <code>CORS_ORIGINS</code> to test an allowed request; remove it to test
+        that the browser blocks the response.
+      </p>
+      <label>
+        Local API URL
+        <input id="api-url" value="http://127.0.0.1:3000/api" />
+      </label>
+      <label>
+        API key
+        <input id="api-key" type="password" autocomplete="off" />
+      </label>
+      <button id="run" type="button">Send credentialed CORS request</button>
+      <pre id="result" aria-live="polite"></pre>
+    </main>
+    <script>
+      const result = document.querySelector('#result');
+
+      document.querySelector('#run').addEventListener('click', async () => {
+        const apiUrl = new URL(document.querySelector('#api-url').value);
+        if (
+          apiUrl.protocol !== 'http:' ||
+          !['localhost', '127.0.0.1', '[::1]'].includes(apiUrl.hostname)
+        ) {
+          result.textContent = 'Only a local HTTP API target is allowed.';
+          return;
+        }
+
+        try {
+          const response = await fetch(apiUrl, {
+            method: 'GET',
+            credentials: 'include',
+            headers: {
+              'x-api-key': document.querySelector('#api-key').value,
+              'x-request-id': 'cors-test-page',
+            },
+          });
+          result.textContent = `HTTP ${response.status}\n${await response.text()}`;
+        } catch (error) {
+          result.textContent =
+            'The browser blocked the response. Check the console and CORS_ORIGINS.';
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,10 +1,10 @@
 import { Controller, Get, Post, Param, Query, Body, HttpCode } from "@nestjs/common";
-import { OrdersService } from "./order.service.js";
+import { OrderService } from "./order.service.js";
 import { CreateOrderDto } from "./dto/create-order.dto.js";
 
 @Controller("orders")
 export class OrdersController {
-  constructor(private readonly ordersService: OrdersService) {}
+  constructor(private readonly ordersService: OrderService) {}
 
   @Get()
   findAll(@Query("area") area?: string) {

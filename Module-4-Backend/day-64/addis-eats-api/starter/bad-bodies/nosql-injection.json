@@ -1,0 +1,12 @@
+{
+  "customer": {
+    "$ne": ""
+  },
+  "area": "Bole",
+  "totalSantim": {
+    "$gt": 0
+  },
+  "partnerResponse": {
+    "trusted": true
+  }
+}
